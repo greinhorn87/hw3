@@ -8,6 +8,16 @@ function pageLoad() {
   // e.g. ask 'ride' for its length or only grab the first member of the Array
   console.log(ride)
 
+  if (ride.length > 1) {
+    levelOfService = "Noober Pool"
+  } else if (ride.purplerequsted = true) {
+    levelOfService = "Noober Purple"
+  } else if (ride.numberOfPassengers > 3) {
+    levelOfService = "Noober XL"
+  }
+
+
+
   // these variables map to the elements on the finished page;
   // assign the proper value to each variable
 
