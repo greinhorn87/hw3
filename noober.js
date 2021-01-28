@@ -30,7 +30,7 @@ let passenger3 = ride[2]
 
 
 
-if (ride.length == 1) {
+if (ride.length == 1 || ride.length == 2 || ride.length == 3) {
   passenger1Name = passenger1.passengerDetails.first + ' ' + passenger1.passengerDetails.last
   passenger1Phone = passenger1.passengerDetails.phoneNumber
   passenger1NumberOfPassengers = passenger1.passengerDetails.numberOfPassengers
@@ -39,7 +39,7 @@ if (ride.length == 1) {
   passenger1DropoffAddressLine1 = passenger1.dropoffLocation.address
   passenger1DropoffAddressLine2 = passenger1.dropoffLocation.city + " " + passenger1.dropoffLocation.state + ' ' +passenger1.dropoffLocation.zip 
 } 
-else if (ride.length == 1 || ride.length == 2) {
+else if (ride.length == 2 || ride.length == 3) {
   passenger2Name = passenger2.passengerDetails.first + ' ' + passenger2.passengerDetails.last
   passenger2Phone = passenger2.passengerDetails.phoneNumber
   passenger2NumberOfPassengers = passenger2.passengerDetails.numberOfPassengers
@@ -48,7 +48,7 @@ else if (ride.length == 1 || ride.length == 2) {
   passenger2DropoffAddressLine1 = passenger2.dropoffLocation.address
   passenger2DropoffAddressLine2 = passenger2.dropoffLocation.city + " " + passenger2.dropoffLocation.state + ' ' +passenger2.dropoffLocation.zip 
 }
-else if (ride.length == 1 || ride.length == 2 || ride.length == 3) {
+else if (ride.length == 3) {
   passenger3Name = passenger3.passengerDetails.first + ' ' + passenger3.passengerDetails.last
   passenger3Phone = passenger3.passengerDetails.phoneNumber
   passenger3NumberOfPassengers = passenger3.passengerDetails.numberOfPassengers
