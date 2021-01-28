@@ -8,14 +8,32 @@ function pageLoad() {
   // e.g. ask 'ride' for its length or only grab the first member of the Array
   console.log(ride)
 
-levelOfService = ["Noober X", "Noober Purple", "Noober XL", "Noober Pool"] 
-if(ride.length > 1 || ride[0].numberOfPassengers == 1){
-  levelOfService = "Noober Pool"
-} else if(ride.purpleRequested = true ){
-  levelOfService = "Noober Purple"
-} else if(ride.numberOfPassengers > 3){
-  levelOfService = "Noober XL"
-} else{levelOfService = "Noober X"}
+  let passenger1 = ride[0]
+  let passenger2 = ride[1]
+  let passenger3 = ride[2]
+levelOfService = ('Noober X', 'Noober Purple', 'Noober XL')
+
+if (ride.length > 1) {
+  levelOfService = 'Noober Pool'
+} else if (ride.purplerequested = true) {
+  levelOfService = 'Noober Purple'
+} else if (ride.numberOfPassengers > 3) {
+  levelOfService = 'Noober XL'
+} else {levelOfService = 'Noober X'}
+console.log(levelOfService)
+
+
+
+
+
+// levelOfService = ["Noober X", "Noober Purple", "Noober XL", "Noober Pool"] 
+// if(ride.length > 1 || ride[0].numberOfPassengers == 1){
+//   levelOfService = "Noober Pool"
+// } else if(ride.purpleRequested = true ){
+//   levelOfService = "Noober Purple"
+// } else if(ride.numberOfPassengers > 3){
+//   levelOfService = "Noober XL"
+// } else{levelOfService = "Noober X"}
   
   // if (ride.length > 1) {
   //   levelOfService = "Noober Pool"
@@ -25,13 +43,13 @@ if(ride.length > 1 || ride[0].numberOfPassengers == 1){
   //   levelOfService = "Noober XL"
   // } else {levelOfService = "Noober X"}
 
-  console.log(levelOfService)
+  // console.log(levelOfService)
 
-let passenger1 = ride[0]
-let passenger2 = ride[1]
-let passenger3 = ride[2]
+// let passenger1 = ride[0]
+// let passenger2 = ride[1]
+// let passenger3 = ride[2]
 
-console.log(levelOfService)
+// console.log(levelOfService)
 
 if (ride.length == 1){
   passenger1Name = passenger1.passengerDetails.first + ' ' + passenger1.passengerDeatils.last
@@ -60,6 +78,28 @@ if (ride.length == 1){
   passenger3DropoffAddressLine1 = passenger3.dropoffLocation.address
   passenger3DropoffAddressLine2 = passenger3.dropoffLocation.city + " " + passenger3.dropoffLocation.state + ' ' +passenger3.dropoffLocation.zip 
 }
+
+console.log(passenger1Name)
+console.log(passenger1Phone)
+console.log(passenger1NumberOfPassengers)
+console.log(passenger1PickupAddressLine1)
+console.log(passenger1PickupAddressLine2)
+console.log(passenger1DropoffAddressLine1)
+console.log(passenger1DropoffAddressLine2)
+console.log(passenger2Name)
+console.log(passenger2Phone)
+console.log(passenger2NumberOfPassengers)
+console.log(passenger2PickupAddressLine1)
+console.log(passenger2PickupAddressLine2)
+console.log(passenger2DropoffAddressLine1)
+console.log(passenger2DropoffAddressLine2)
+console.log(passenger3Name)
+console.log(passenger3Phone)
+console.log(passenger3NumberOfPassengers)
+console.log(passenger3PickupAddressLine1)
+console.log(passenger3PickupAddressLine2)
+console.log(passenger3DropoffAddressLine1)
+console.log(passenger3DropoffAddressLine2)
 
   // these variables map to the elements on the finished page;
   // assign the proper value to each variable
