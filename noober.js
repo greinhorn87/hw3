@@ -8,9 +8,7 @@ function pageLoad() {
   // e.g. ask 'ride' for its length or only grab the first member of the Array
   console.log(ride)
 
-  // let passenger1 = ride[0]
-  // let passenger2 = ride[1]
-  // let passenger3 = ride[2]
+  
 levelOfService = ('Noober X', 'Noober Purple', 'Noober XL')
 
 if (ride.length > 1) {
@@ -26,30 +24,11 @@ console.log(levelOfService)
 
 
 
-// levelOfService = ["Noober X", "Noober Purple", "Noober XL", "Noober Pool"] 
-// if(ride.length > 1 || ride[0].numberOfPassengers == 1){
-//   levelOfService = "Noober Pool"
-// } else if(ride.purpleRequested = true ){
-//   levelOfService = "Noober Purple"
-// } else if(ride.numberOfPassengers > 3){
-//   levelOfService = "Noober XL"
-// } else{levelOfService = "Noober X"}
-  
-  // if (ride.length > 1) {
-  //   levelOfService = "Noober Pool"
-  // } else if (ride.purplerequsted = true) {
-  //   levelOfService = "Noober Purple"
-  // } else if (ride.numberOfPassengers > 3) {
-  //   levelOfService = "Noober XL"
-  // } else {levelOfService = "Noober X"}
-
-  // console.log(levelOfService)
-
 let passenger1 = ride[0]
 let passenger2 = ride[1]
 let passenger3 = ride[2]
 
-// console.log(levelOfService)
+
 
 if (ride.length == 1) {
   passenger1Name = passenger1.passengerDetails.first + ' ' + passenger1.passengerDetails.last
