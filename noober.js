@@ -8,9 +8,9 @@ function pageLoad() {
   // e.g. ask 'ride' for its length or only grab the first member of the Array
   console.log(ride)
 
-  let passenger1 = ride[0]
-  let passenger2 = ride[1]
-  let passenger3 = ride[2]
+  // let passenger1 = ride[0]
+  // let passenger2 = ride[1]
+  // let passenger3 = ride[2]
 levelOfService = ('Noober X', 'Noober Purple', 'Noober XL')
 
 if (ride.length > 1) {
@@ -45,9 +45,9 @@ console.log(levelOfService)
 
   // console.log(levelOfService)
 
-// let passenger1 = ride[0]
-// let passenger2 = ride[1]
-// let passenger3 = ride[2]
+let passenger1 = ride[0]
+let passenger2 = ride[1]
+let passenger3 = ride[2]
 
 // console.log(levelOfService)
 
@@ -86,6 +86,7 @@ console.log(passenger1PickupAddressLine1)
 console.log(passenger1PickupAddressLine2)
 console.log(passenger1DropoffAddressLine1)
 console.log(passenger1DropoffAddressLine2)
+
 console.log(passenger2Name)
 console.log(passenger2Phone)
 console.log(passenger2NumberOfPassengers)
@@ -93,6 +94,7 @@ console.log(passenger2PickupAddressLine1)
 console.log(passenger2PickupAddressLine2)
 console.log(passenger2DropoffAddressLine1)
 console.log(passenger2DropoffAddressLine2)
+
 console.log(passenger3Name)
 console.log(passenger3Phone)
 console.log(passenger3NumberOfPassengers)
