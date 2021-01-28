@@ -52,7 +52,7 @@ if (ride.length == 1){
   passenger3PickupAddressLine2 = passenger3.pickupLocation.city + " " + passenger3.pickupLocation.state + " " + passenger3.pickupLocation.zip
   passenger3DropoffAddressLine1 = passenger3.dropoffLocation.address
   passenger3DropoffAddressLine2 = passenger3.dropoffLocation.city + " " + passenger3.dropoffLocation.state + ' ' +passenger3.dropoffLocation.zip 
-
+}
 
   // these variables map to the elements on the finished page;
   // assign the proper value to each variable
