@@ -51,7 +51,7 @@ console.log(levelOfService)
 
 // console.log(levelOfService)
 
-if (ride.length == 1){
+if (ride.length == 1) {
   passenger1Name = passenger1.passengerDetails.first + ' ' + passenger1.passengerDetails.last
   passenger1Phone = passenger1.passengerDetails.phoneNumber
   passenger1NumberOfPassengers = passenger1.passengerDetails.numberOfPassengers
